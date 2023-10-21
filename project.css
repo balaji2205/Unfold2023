@@ -1,0 +1,131 @@
+.navbar {
+    height: 100px;
+
+}
+.container-fluid{
+    font-weight: 300px;
+    font-size: 20px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.5);
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+#navbarSupportedContent a:hover{    
+    transform: scale(1.2);
+    border-bottom: 2px solid black;
+
+}
+.navbar-nav {
+    gap: 30px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.4)),url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#home h1{
+    font-weight: 900;
+    font-size: 350%;
+}
+
+#about{
+    background-color: 		#FFFF99;
+}
+#about h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+#products h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+#products{
+    background-color: 		#FDEFB2;
+}
+.card{
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0,0,0.3),inset 4px 4px 10px white;
+    border-radius: 40px !important;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0,0,0.3),inset -4px -4px 10px white;
+    transition: .4s;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-group-item a{
+    
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+
+
+
+
+
+  #products{
+    box-sizing: border-box;
+  }
+  
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  #products p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
